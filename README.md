@@ -1,3 +1,10 @@
+# Hi! Welcome there!🖖
+
+
+**Java** and **Python** lover.
+
+Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons).
+
 <p>
 	<img height=290 align="center" src=https://github-readme-stats.vercel.app/api?username=MCTBL&show_icons=true&&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&rank_icon=percentile/>
 	<img height=290 align="center" src="https://github-profile-trophy.vercel.app/?username=MCTBL&rank=-C,-?&column=3&margin-w=15&margin-h=15&theme=monokai"/>
@@ -6,12 +13,18 @@
 ---
 
 <p>
-	<img height=200 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
-	<img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact"/>
+	<img height=190 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
+	<img height=190 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook"/>
 <p/>
 
 <!--
 **MCTBL/MCTBL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+<p align="center">
+	<img src="https://img.shields.io/badge/-java-B07219.svg"/>
+	<img src="https://img.shields.io/badge/-python-3572A5.svg"/>
+	<img src="https://img.shields.io/badge/-docker-384D54.svg"/>
+<p/>
 
 Here are some ideas to get you started:
 
