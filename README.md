@@ -8,18 +8,18 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 <p>
 	<p>
 		<a href="https://github.com/GTNewHorizons/GT-New-Horizons-Modpack">
-		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=GT-New-Horizons-Modpack"/>
+		<img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=GT-New-Horizons-Modpack"/>
 		</a>
 		<a href="https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial">
-		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=Applied-Energistics-2-Unofficial"/>
+		<img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=Applied-Energistics-2-Unofficial"/>
 		</a>
 	</p>
  	<p>
 		<a href="https://github.com/GTNewHorizons/AE2FluidCraft-Rework">
-		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=AE2FluidCraft-Rework"/>
+		<img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=AE2FluidCraft-Rework"/>
 		</a>
 		<a href="https://github.com/GTNewHorizons/ThaumicEnergistics">
-		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=ThaumicEnergistics"/>
+		<img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=ThaumicEnergistics"/>
 		</a>
 	</p>
 </p>
@@ -27,15 +27,15 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 # Recent Actitivy
 
 <p>
-	<img height=290 align="center" src=https://github-readme-stats.vercel.app/api?username=MCTBL&show_icons=true&&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&rank_icon=percentile/>
-	<img height=290 align="center" src="https://github-profile-trophy.vercel.app/?username=MCTBL&rank=-C,-?&column=3&margin-w=15&margin-h=15&theme=monokai"/>
+	<img height=230 align="center" src=https://github-readme-stats.vercel.app/api?username=MCTBL&show_icons=true&&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&rank_icon=percentile/>
+	<img height=230 align="center" src="https://github-profile-trophy.vercel.app/?username=MCTBL&rank=-C,-?&column=3&margin-w=15&margin-h=15&theme=monokai"/>
 <p/>
 
 ---
 
 <p>
-	<img height=190 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
-	<img height=190 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook"/>
+	<img height=150 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
+	<img height=150 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook"/>
 <p/>
 
 <!--
