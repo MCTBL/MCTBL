@@ -1,9 +1,30 @@
 # Hi! Welcome there!🖖
 
 
-**Java** and **Python** lover.
+My major is about **Data Science and Big Data Technology**, so I'm a **Java** and **Python** lover. 
 
-Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons).
+Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainly active in theses repositories.
+
+<p>
+	<p>
+		<a href="https://github.com/GTNewHorizons/GT-New-Horizons-Modpack">
+		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=GT-New-Horizons-Modpack"/>
+		</a>
+		<a href="https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial">
+		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=Applied-Energistics-2-Unofficial"/>
+		</a>
+	</p>
+ 	<p>
+		<a href="https://github.com/GTNewHorizons/AE2FluidCraft-Rework">
+		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=AE2FluidCraft-Rework"/>
+		</a>
+		<a href="https://github.com/GTNewHorizons/ThaumicEnergistics">
+		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=ThaumicEnergistics"/>
+		</a>
+	</p>
+</p>
+
+# Recent Actitivy
 
 <p>
 	<img height=290 align="center" src=https://github-readme-stats.vercel.app/api?username=MCTBL&show_icons=true&&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&rank_icon=percentile/>
