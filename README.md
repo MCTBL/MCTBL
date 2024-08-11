@@ -1,6 +1,6 @@
 <p>
-	<img width=45% margin=center src="https://github-profile-trophy.vercel.app/?username=MCTBL&rank=-C,-?&column=3&margin-w=15&margin-h=15&theme=monokai&no-bg=true"/>
-	 <img width=52% margin=center src=https://github-readme-stats.vercel.app/api?username=MCTBL&show_icons=true&&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&rank_icon=percentile/>
+	<img width=52% margin=center src=https://github-readme-stats.vercel.app/api?username=MCTBL&show_icons=true&&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&rank_icon=percentile/>
+	<img width=45% margin=center src="https://github-profile-trophy.vercel.app/?username=MCTBL&rank=-C,-?&column=3&margin-w=15&margin-h=15&theme=monokai"/>
 <p/>
 
 ---
