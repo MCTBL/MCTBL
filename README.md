@@ -16,10 +16,10 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 	</p>
  	<p>
 		<a href="https://github.com/GTNewHorizons/AE2FluidCraft-Rework">
-		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=AE2FluidCraft-Rework"/>
+		<img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=AE2FluidCraft-Rework"/>
 		</a>
 		<a href="https://github.com/GTNewHorizons/ThaumicEnergistics">
-		<img height=130 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=ThaumicEnergistics"/>
+		<img height=120 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=GTNewHorizons&repo=ThaumicEnergistics"/>
 		</a>
 	</p>
 </p>
@@ -34,8 +34,8 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 ---
 
 <p>
-	<img height=170 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
-	<img height=170 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook"/>
+	<img height=160 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
+	<img height=160 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook"/>
 <p/>
 
 <!--
