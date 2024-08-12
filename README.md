@@ -31,6 +31,10 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 	<img height=240 align="center" src="https://github-profile-trophy.vercel.app/?username=MCTBL&rank=-C,-?&column=3&margin-w=15&margin-h=15&theme=monokai"/>
 <p/>
 
+<p>
+	<img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=MCTBL&bg_color=0f2d3d&color=1cadfb&line=1cadfb&point=1cadfb&area=true&hide_border=true">
+</p>
+
 ---
 
 <p>
