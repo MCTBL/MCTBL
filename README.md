@@ -39,7 +39,7 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 
 <p>
 	<img height=160 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
-	<img height=160 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook"/>
+	<img height=160 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook,html,javascript,css"/>
 <p/>
 
 <!--
