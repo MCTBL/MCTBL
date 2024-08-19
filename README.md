@@ -27,6 +27,16 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 # Recent Actitivy
 
 <!--START_SECTION:waka-->
+``` rust
+Total Code Time: 5 hrs 38 mins
+
+Java             2 hrs 48 mins   >>>>>>>>>>==========  49.65 %
+Python           2 hrs 47 mins   >>>>>>>>>>==========  49.34 %
+Markdown         3 mins          >===================  00.96 %
+Git Config       0 secs          >===================  00.03 %
+Text             0 secs          >===================  00.02 %
+Other            0 secs          >===================  00.00 %
+```
 <!--END_SECTION:waka-->
 
 <p>
