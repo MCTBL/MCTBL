@@ -8,24 +8,12 @@ import logging as logger
 waka_key = os.getenv("WAKA_KEY")
 gh_token = os.getenv("GH_TOKEN")
 repo_name = os.getenv("REPO_NAME")
-branch_name = os.getenv("BRANCH_NAME")
-start_mark = os.getenv("START_MARK")
-end_mark = os.getenv("END_MARK")
+branch_name = os.getenv("BRANCH_NAME", "main").strip()
+start_mark = os.getenv("START_MARK", "<!--START_SECTION:waka-->").strip()
+end_mark = os.getenv("END_MARK", "<!--END_SECTION:waka-->").strip()
 
 
 def check_env() -> bool:
-    if len(start_mark) == 0:
-        start_mark = "<!--START_SECTION:waka-->"
-    else:
-        start_mark.strip()
-    if len(end_mark) == 0:
-        end_mark = "<!--END_SECTION:waka-->"
-    else:
-        end_mark.strip()
-    if len(branch_name) == 0:
-        branch_name = "main"
-    else:
-        branch_name.strip()
     if len(waka_key) or len(gh_token) or len(repo_name) == 0:
         return False
     else:
