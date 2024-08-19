@@ -5,12 +5,12 @@ import re
 import os
 import logging as logger
 
-waka_key = os.getenv("WAKA_KEY")
-gh_token = os.getenv("GH_TOKEN")
-repo_name = os.getenv("REPO_NAME")
-branch_name = os.getenv("BRANCH_NAME", "main").strip()
-start_mark = os.getenv("START_MARK", "<!--START_SECTION:waka-->").strip()
-end_mark = os.getenv("END_MARK", "<!--END_SECTION:waka-->").strip()
+waka_key = os.environ.get("WAKA_KEY")
+gh_token = os.environ.get("GH_TOKEN")
+repo_name = os.environ.get("REPO_NAME")
+branch_name = os.environ.get("BRANCH_NAME", "main").strip()
+start_mark = os.environ.get("START_MARK", "<!--START_SECTION:waka-->").strip()
+end_mark = os.environ.get("END_MARK", "<!--END_SECTION:waka-->").strip()
 
 
 def check_env() -> bool:
