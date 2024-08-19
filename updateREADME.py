@@ -5,27 +5,27 @@ import re
 import os
 import logging as logger
 
-waka_key = os.getenv("WAKA_KEY").strip()
-gh_token = os.getenv("GH_TOKEN").strip()
-repo_name = os.getenv("REPO_NAME").strip()
-branch_name = os.getenv("BRANCH_NAME").strip()
-start_mark = os.getenv("START_MARK").strip()
-end_mark = os.getenv("END_MARK").strip()
-
-waka_url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
-headers = {
-    'Authorization': "Basic %s" % waka_key,
-    'User-Agent': 'Apifox/1.0.0 (https://apifox.com)'
-}
+waka_key = os.getenv("WAKA_KEY")
+gh_token = os.getenv("GH_TOKEN")
+repo_name = os.getenv("REPO_NAME")
+branch_name = os.getenv("BRANCH_NAME")
+start_mark = os.getenv("START_MARK")
+end_mark = os.getenv("END_MARK")
 
 
 def check_env() -> bool:
     if len(start_mark) == 0:
         start_mark = "<!--START_SECTION:waka-->"
+    else:
+        start_mark.strip()
     if len(end_mark) == 0:
         end_mark = "<!--END_SECTION:waka-->"
+    else:
+        end_mark.strip()
     if len(branch_name) == 0:
         branch_name = "main"
+    else:
+        branch_name.strip()
     if len(waka_key) or len(gh_token) or len(repo_name) == 0:
         return False
     else:
@@ -66,8 +66,13 @@ if __name__ == "__main__":
         logger.warning("some env is necessary")
     else:
         try:
-            connect = Github(auth=Auth.Token(gh_token))
-            repo = connect.get_user().get_repo(repo_name)
+            waka_url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
+            headers = {
+                'Authorization': "Basic %s" % waka_key.strip(),
+                'User-Agent': 'Apifox/1.0.0 (https://apifox.com)'
+            }
+            connect = Github(auth=Auth.Token(gh_token.strip()))
+            repo = connect.get_user().get_repo(repo_name.strip())
             readme_content = get_gh(repo)
 
             waka = waka_str()
