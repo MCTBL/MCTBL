@@ -4,6 +4,7 @@ from github import Github, Auth
 import re
 import os
 import logging as logger
+import time
 
 waka_key = os.environ.get("WAKA_KEY")
 gh_token = os.environ.get("GH_TOKEN")
@@ -28,7 +29,9 @@ def waka_str():
         temp_list.append([i["name"], i["percent"], i["text"]])
     num = 20
     tempStr = "Total Code Time: " + \
-        data["data"]["human_readable_total_including_other_language"] + "\n\n"
+        data["data"]["human_readable_total_including_other_language"] + \
+        "\tUpdate at" + time.strftime("%Y-%m-%d %H:%M:%S",
+                                      time.localtime()) + "\n\n"
 
     for l in temp_list:
         strBar = ""
