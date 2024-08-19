@@ -52,6 +52,9 @@ if __name__ == "__main__":
 
     if not check_env():
         logger.warning("some env is necessary")
+        logger.warning("waka_key is %s" % waka_key)
+        logger.warning("gh_token is %s" % gh_token)
+        logger.warning("repo_name is %s" % repo_name)
     else:
         try:
             waka_url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
