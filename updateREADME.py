@@ -14,7 +14,7 @@ end_mark = os.environ.get("END_MARK", "<!--END_SECTION:waka-->").strip()
 
 
 def check_env() -> bool:
-    if len(waka_key) or len(gh_token) or len(repo_name) == 0:
+    if len(waka_key) == 0 or len(gh_token) == 0 or len(repo_name) == 0:
         return False
     else:
         return True
@@ -51,11 +51,7 @@ def get_gh(repo):
 if __name__ == "__main__":
 
     if not check_env():
-        # logger.warning("some env is necessary\n" + "waka_key len %s\n" %
-        #                len(waka_key) + "gh_token len %s\n" % len(gh_token) +
-        #                "repo_name len %s" % len(repo_name))
-        logger.warning("waka_key len %s\t" % len(waka_key) + "gh_token len %s\t" %
-                       len(gh_token) + "repo_name len %s" % len(repo_name))
+        logger.warning("some env is necessary")
     else:
         try:
             waka_url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
