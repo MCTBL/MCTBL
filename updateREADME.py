@@ -28,10 +28,10 @@ def waka_str():
     for i in data["data"]["languages"]:
         temp_list.append([i["name"], i["percent"], i["text"]])
     num = 20
-    tempStr = "Total Code Time: " + \
-        data["data"]["human_readable_total_including_other_language"] + \
-        "\nUpdate at:       " + time.strftime("%Y-%m-%d %H:%M:%S",
-                                              time.localtime()) + "\n"
+    tempStr = "Update Time:       " + \
+        time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + \
+        "\nTotal Code Time: " + \
+        data["data"]["human_readable_total_including_other_language"] + "\n"
 
     for l in temp_list:
         strBar = ""
