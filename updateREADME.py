@@ -30,8 +30,8 @@ def waka_str():
     num = 20
     tempStr = "Total Code Time: " + \
         data["data"]["human_readable_total_including_other_language"] + \
-        "\tUpdate at" + time.strftime("%Y-%m-%d %H:%M:%S",
-                                      time.localtime()) + "\n\n"
+        "\tUpdate at " + time.strftime("%Y-%m-%d %H:%M:%S",
+                                       time.localtime()) + "\n\n"
 
     for l in temp_list:
         strBar = ""
