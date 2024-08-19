@@ -51,10 +51,8 @@ def get_gh(repo):
 if __name__ == "__main__":
 
     if not check_env():
-        logger.warning("some env is necessary")
-        logger.warning("waka_key is %s" % waka_key)
-        logger.warning("gh_token is %s" % gh_token)
-        logger.warning("repo_name is %s" % repo_name)
+        logger.warning("some env is necessary\n" + "waka_key is %s\n" %
+                       waka_key + "gh_token is %s\n" % gh_token + "repo_name is %s" % repo_name)
     else:
         try:
             waka_url = "https://wakatime.com/api/v1/users/current/stats/last_7_days"
