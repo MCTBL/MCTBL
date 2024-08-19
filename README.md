@@ -26,6 +26,9 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 
 # Recent Actitivy
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <p>
 	<img height=240 align="center" src=https://github-readme-stats.vercel.app/api?username=MCTBL&show_icons=true&&show=reviews,prs_merged,prs_merged_percentage&theme=tokyonight&rank_icon=percentile/>
 	<img height=240 align="center" src="https://github-profile-trophy.vercel.app/?username=MCTBL&rank=-C,-?&column=3&margin-w=15&margin-h=15&theme=monokai"/>
