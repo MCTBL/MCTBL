@@ -36,7 +36,7 @@ def waka_str():
     for l in temp_list:
         strBar = ""
         for i in range(num):
-            if i <= int(l[1] / (100 / num)):
+            if i < int(l[1] / (100 / num)):
                 strBar += ">"
             else:
                 strBar += "="
