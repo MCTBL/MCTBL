@@ -12,6 +12,7 @@ repo_name = os.environ.get("REPO_NAME")
 branch_name = os.environ.get("BRANCH_NAME", "main").strip()
 start_mark = os.environ.get("START_MARK", "<!--START_SECTION:waka-->").strip()
 end_mark = os.environ.get("END_MARK", "<!--END_SECTION:waka-->").strip()
+progress_bar_len = int(os.environ.get("LENGTH_OF_PROGRESS_BAR", '20').strip())
 
 
 def check_env() -> bool:
@@ -27,7 +28,6 @@ def waka_str():
     temp_list = []
     for i in data["data"]["languages"]:
         temp_list.append([i["name"], i["percent"], i["text"]])
-    num = 20
     tempStr = "Update Time:     " + \
         time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + \
         "\nTotal Code Time: " + \
@@ -35,8 +35,8 @@ def waka_str():
 
     for l in temp_list:
         strBar = ""
-        for i in range(num):
-            if i < int(l[1] / (100 / num)):
+        for i in range(progress_bar_len):
+            if i < int(l[1] / (100 / progress_bar_len)):
                 strBar += ">"
             else:
                 strBar += "="
