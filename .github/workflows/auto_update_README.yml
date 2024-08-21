@@ -33,3 +33,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           REPO_NAME: ${{ secrets.REPO_NAME }}
           WAKA_KEY: ${{ secrets.WAKA_KEY }}
+          LENGTH_OF_PROGRESS_BAR: ${{ secrets.LENGTH_OF_PROGRESS_BAR }}
