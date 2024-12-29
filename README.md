@@ -28,15 +28,16 @@ Now I'm a member of the [GTNewHorizons](https://github.com/GTNewHorizons). Mainl
 
 <!--START_SECTION:waka-->
 ``` rust
-Update Time:     2024-12-23 00:19:25
-Total Code Time: 23 hrs 17 mins
+Update Time:     2024-12-30 00:19:28
+Total Code Time: 16 hrs 43 mins
 
-Python           20 hrs 59 mins  >>>>>>>>>>>>>>>>>>>>>>>>>>>===  90.11 %
-Lua              53 mins         >=============================  03.82 %
-JSON             44 mins         ==============================  03.17 %
-CSV              21 mins         ==============================  01.52 %
-HTML             18 mins         ==============================  01.31 %
-Other            1 min           ==============================  00.08 %
+Python           15 hrs 54 mins  >>>>>>>>>>>>>>>>>>>>>>>>>>>>==  95.07 %
+JSON             39 mins         >=============================  03.90 %
+Java             7 mins          ==============================  00.79 %
+Lua              1 min           ==============================  00.13 %
+Other            0 secs          ==============================  00.10 %
+HTML             0 secs          ==============================  00.01 %
+CSV              0 secs          ==============================  00.00 %
 ```
 <!--END_SECTION:waka-->
 
