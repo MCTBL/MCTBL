@@ -64,7 +64,7 @@ SQL              0 secs          ==============================  00.00 %
 ---
 
 <p>
-	<img height=160 align="center" src="http://github-readme-streak-stats.herokuapp.com?user=MCTBL"/>
+	<img height=160 align="center" src="https://streak-stats.demolab.com/?user=MCTBL&theme=dark"/>
 	<img height=160 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MCTBL&layout=compact&hide=jupyter%20notebook,html"/>
 <p/>
 
